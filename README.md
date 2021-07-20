@@ -4,9 +4,16 @@ The format of the log file is `csv`, so it can easily be imported to **Excel** a
   
 ![image](https://i.imgur.com/UjyuQN5.png)
 
+# Video demos
+## Registering new cards to the system
+https://user-images.githubusercontent.com/25265212/126251793-2c10412d-8e5a-42e4-84ec-60b0f6c576a9.mp4
+
+## Logging in action
+https://user-images.githubusercontent.com/25265212/126251928-f49a8bf9-d490-4379-ad03-2b3fa92fa593.mp4
+
 ## Current things to do
-- [ ] Try to trigger for errors and make the program more stable.  
-I coded the entire project in a day, so I haven't had the chance to test for bugs and errors. It works stable so far but I want to make sure.  
+- [ ] Try to trigger for errors and make the program more stable.
+* I coded the entire project in a day, so I haven't had the chance to test for bugs and errors. It works stable so far but I want to make sure.  
   
 # Setting up the GPIO Pins
 ## RFID-RC522
