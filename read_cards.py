@@ -2,6 +2,7 @@ from RGB import RGB
 import RPi.GPIO as GPIO
 from mfrc522 import SimpleMFRC522
 
+from pathlib import Path
 from os import getcwd as cwd
 from os.path import exists
 
@@ -40,6 +41,10 @@ def current_monday():
 def check_weekly_file():
     '''If exists, returns the name of the weekly log file, if not, creates a new one.'''
     monday = current_monday()
+
+    # Check if the log folder exists, if not create a new one
+    Path(cwd() + '/logs').mkdir(parents = True, exist_ok = True)
+
     if exists(cwd() + f'/logs/{monday}.csv'):
         return monday + '.csv'
     else:
