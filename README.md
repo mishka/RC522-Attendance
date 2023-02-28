@@ -18,7 +18,7 @@ https://user-images.githubusercontent.com/25265212/126251928-f49a8bf9-d490-4379-
 # Setting up the GPIO Pins
 ## RFID-RC522
 
-You can reference [this](https://pimylifeup.com/wp-content/uploads/2017/08/RFID-GPIO-Connection.jpg) image.
+You can refer to [this](https://pimylifeup.com/wp-content/uploads/2017/08/RFID-GPIO-Connection.jpg) image.
 
 | Name | Pin # | Pin name   |        
 |------|-------|------------|
